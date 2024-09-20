@@ -1,0 +1,7 @@
+<nav aria-label="Footer">
+    <ul>
+        {% for nav in footer %}
+        <li><a {% if page.url==nav.url %}class="current" {% endif %} href="{{ nav.url | url }}">{{ nav.data.title }}</a></li>
+        {% endfor %}
+    </ul>
+</nav>

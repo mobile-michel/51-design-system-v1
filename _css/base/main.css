@@ -1,0 +1,64 @@
+/* Reset some default browser styles */
+* {
+    box-sizing: border-box;
+}
+
+/* Basic typography */
+body {
+    font-family: var(--font-family-serif);
+    line-height: var(--line-height-base);
+    color: var(--text-color);
+    background-color: var(--background-color);
+}
+
+/* Headings */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: var(--font-family-sans);
+    margin-bottom: 1rem;
+    font-weight: bold;
+}
+
+pre {
+    white-space: pre-wrap;
+}
+
+/* Navigation */
+nav a {
+    color: var(--gray-600);
+    text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+[aria-label=Primary] ul,
+[aria-label=Footer] ul {
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+}
+
+nav li {
+    list-style-type: none;
+}
+
+nav a[aria-current] {
+    font-weight: bold;
+}
+
+/* Header, Footer */
+header,
+footer {
+    text-align: center;
+}

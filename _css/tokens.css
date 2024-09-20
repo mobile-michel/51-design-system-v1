@@ -1,0 +1,42 @@
+:root {
+    /* Colors */
+    --neutral-100: hsl(0, 0%, 98%);
+    --neutral-200: hsl(0, 0%, 96%);
+    --neutral-300: hsl(0, 0%, 94%);
+    --neutral-400: hsl(0, 0%, 88%);
+    --neutral-500: hsl(0, 0%, 80%);
+    --neutral-600: hsl(0, 0%, 60%);
+    --neutral-700: hsl(0, 0%, 40%);
+    --neutral-800: hsl(0, 0%, 20%);
+    --neutral-900: hsl(0, 0%, 10%);
+
+    /* Color Palette */
+    --primary-color: #3498db;
+    --secondary-color: #2ecc71;
+    --accent-color: #e74c3c;
+    --background-color: var(--neutral-100);
+    --text-color: var(--neutral-800);
+
+    /* Typography */
+    --font-family-sans: 'Helvetica Neue', Arial, sans-serif;
+    --font-family-serif: 'Georgia', serif;
+    --line-height-base: 1.6;
+    --font-size-base: 16px;
+    --font-size-large: 24px;
+    --font-size-small: 12px;
+
+    /* Spacing */
+    --spacing-small: 8px;
+    --spacing-medium: 16px;
+    --spacing-large: 24px;
+
+    /* Border Radius */
+    --border-radius-small: 4px;
+    --border-radius-medium: 8px;
+    --border-radius-large: 16px;
+
+    /* Shadows */
+    --shadow-small: 0 1px 3px rgba(0, 0, 0, 0.12);
+    --shadow-medium: 0 4px 6px rgba(0, 0, 0, 0.16);
+    --shadow-large: 0 10px 20px rgba(0, 0, 0, 0.19);
+}

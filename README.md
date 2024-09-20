@@ -1,3 +1,7 @@
+---
+title: Readme
+tags: footer
+---
 # Complete design system with tokens, components, templates & layouts. Build with Eleventy 2.0.1, LiquidJS & DecapCMS.
 Project started Friday September 20th, 2024.
 
