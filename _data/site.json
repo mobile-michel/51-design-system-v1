@@ -1,0 +1,10 @@
+{
+    "name": "Design System version 1",
+    "version": "1.0.0",
+    "description": "Complete design system with tokens, components, templates & layouts. Build with Eleventy 2.0.1, LiquidJS & DecapCMS.",
+    "author": "Michel Maillard",
+    "github": "https://github.com/mobile-michel/51-design-system-v1",
+    "ssg": "Eleventy v2.0.1",
+    "templating": "LiquidJS",
+    "cms": "DecapCMS"
+}
