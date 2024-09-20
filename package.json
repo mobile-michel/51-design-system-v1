@@ -1,0 +1,21 @@
+{
+  "name": "51-design-system-v1",
+  "version": "1.0.0",
+  "description": "Complete design system with tokens, components, templates & layouts. Build with Eleventy 2.0.1, LiquidJS & DecapCMS.",
+  "main": "index.md",
+  "scripts": {
+    "start": "npx eleventy --serve"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mobile-michel/51-design-system-v1"
+  },
+  "keywords": [
+    "design system",
+    "eleventy",
+    "liquidjs",
+    "decapcms"
+  ],
+  "author": "Michel Maillard",
+  "license": "ISC"
+}
