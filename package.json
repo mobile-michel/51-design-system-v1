@@ -4,8 +4,8 @@
   "description": "Complete design system with tokens, components, templates & layouts. Build with Eleventy 2.0.1, LiquidJS & DecapCMS.",
   "main": "index.md",
   "scripts": {
-    "start": "npx eleventy --serve",
-    "serve": "npx decap-server & npx eleventy --serve",
+    "start": "npx @11ty/eleventy --serve",
+    "serve": "npx decap-server & npx @11ty/eleventy --serve",
     "build": "eleventy",
     "build-gp": "eleventy --pathprefix '51-design-system-v1'"
   },
@@ -20,5 +20,8 @@
     "decapcms"
   ],
   "author": "Michel Maillard",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "@11ty/eleventy": "^2.0.1"
+  }
 }
