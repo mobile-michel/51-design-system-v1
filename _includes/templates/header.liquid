@@ -1,6 +1,6 @@
 <header>
     <div>
         <h1>{{ site.name }}</h1>
-        {% render 'navigation/header' with collections.primary as primary %}
+        {% render 'navigation/header' with collections.primary as primary, url: page.url %}
     </div>
 </header>

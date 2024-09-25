@@ -1,0 +1,30 @@
+/*---- Navigation ----*/
+
+nav a {
+    color: var(--gray-600);
+    text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+[aria-label=Primary] ul,
+[aria-label=Footer] ul {
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+}
+
+nav li {
+    list-style-type: none;
+}
+
+nav a[aria-current] {
+    font-weight: bold;
+}

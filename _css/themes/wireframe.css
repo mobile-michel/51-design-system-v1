@@ -1,15 +1,17 @@
+/*---- Wireframe ----*/
+
 header, footer {
     background-color: var(--neutral-300);
 }
 
-main {
-    border: 1px dashed var(--neutral-600);
+#main-content {
+    background-color: var(--neutral-100);
+}
+
+header>div, #main-content>div, footer>div {
+    border: 1px dotted var(--neutral-600);
 }
 
 nav {
-    border: 1px solid var(--neutral-500);
-}
-
-header>div, footer>div {
-    border: 1px dotted var(--neutral-600);
+    border: 1px solid var(--neutral-600);
 }

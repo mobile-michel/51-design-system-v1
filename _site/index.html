@@ -13,35 +13,79 @@
         <nav aria-label="Primary">
     <ul>
         
-        <li><a  href="/">Homepage</a></li>
+        <li><a aria-current="page" href="/">Homepage</a></li>
         
-        <li><a  href="/about/">About Us</a></li>
+        <li><a href="/structure/">Structure</a></li>
         
     </ul>
 </nav>
     </div>
 </header>
 <div id="main-content">
+    <div>
         <main>
     <h2>Homepage</h2>
-    The first paragraph of the homepage.
+    <p>Elements of the design system explained.</p>
+    <h3>Eleventy</h3>
+<ul>
+<li>package.json (scripts + devDependencies)</li>
+<li>Git workflow</li>
+<li>eleventy.config.js (addWatchTarget &quot;./_css&quot;)</li>
+<li>LiquidJS template engine</li>
+<li>JSON datas</li>
+<li>semantic HTML5 (header, main, footer, nav, aside, section)</li>
+<li>navigation with collections and &quot;aria-current=page&quot;</li>
+<li>pagination of collections and JSON datas</li>
+<li>stylesheet files included in style.liquid with permalink /css/style.css</li>
+<li>DecapCMS content management</li>
+<li>GitHub Pages configuration file</li>
+</ul>
+<h3>CSS Framework</h3>
+<h4>Layout</h4>
+<ul>
+<li>responsive (flex &amp; grid)</li>
+<li>centered content</li>
+</ul>
+<h4>Tokens (variables)</h4>
+<ul>
+<li>colors</li>
+<li>typography</li>
+<li>spacing</li>
+<li>dark mode</li>
+</ul>
+<h4>Components</h4>
+<ul>
+<li>navigation (with aria-current=page)
+<ul>
+<li>primary (dropdown, flat, fixe, responsive)</li>
+<li>secondary (aside)</li>
+<li>footer</li>
+<li>paginate</li>
+</ul>
+</li>
+<li>cards</li>
+<li>buttons</li>
+</ul>
+<h4>Elements</h4>
+<ul>
+<li>classes</li>
+<li>CSS normalize</li>
+<li>wireframe</li>
+<li>themes</li>
+</ul>
+
 </main>
+    </div>
 </div>
 <footer>
     <div>
-        <nav>
-            <nav aria-label="Footer">
+        <nav aria-label="Footer">
     <ul>
-        
-        <li><a  href="/README/">Readme</a></li>
-        
-        <li><a  href="/">Homepage</a></li>
-        
-        <li><a  href="/about/">About Us</a></li>
-        
+        <li><a href="/README/">Readme</a></li>
+        <li><a aria-current="page" href="/">Homepage</a></li>
+        <li><a href="/structure/">Structure</a></li>
     </ul>
 </nav>
-        </nav>
         <p>&copy; 2024 Company Name. All rights reserved.</p>
     </div>
 </footer>

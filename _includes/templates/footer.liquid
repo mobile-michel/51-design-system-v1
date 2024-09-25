@@ -1,8 +1,6 @@
 <footer>
     <div>
-        <nav>
-            {% render 'navigation/footer' with collections.footer as footer %}
-        </nav>
+        {% render 'navigation/footer' with collections.footer as footer, url: page.url %}
         <p>&copy; 2024 Company Name. All rights reserved.</p>
     </div>
 </footer>

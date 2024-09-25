@@ -19,46 +19,28 @@ h4,
 h5,
 h6 {
     font-family: var(--font-family-sans);
-    margin-bottom: 1rem;
     font-weight: bold;
+}
+
+h2 + p, h3 + h4, h3 + ul, h4 + ul {
+    margin-top: 0rem;
+}
+
+h2:has(+ p), h3:has(+ h4), h3:has(+ ul), h4:has(+ ul) {
+    margin-bottom: 0rem;
 }
 
 pre {
     white-space: pre-wrap;
 }
 
-/* Navigation */
-nav a {
-    color: var(--gray-600);
-    text-decoration: none;
-}
-
-nav a:hover {
-    text-decoration: underline;
-}
-
-[aria-label=Primary] ul,
-[aria-label=Footer] ul {
-    flex-direction: row;
-    justify-content: space-evenly;
-}
-
-nav ul {
-    display: flex;
-    flex-direction: column;
-    padding: 0;
-}
-
-nav li {
-    list-style-type: none;
-}
-
-nav a[aria-current] {
-    font-weight: bold;
-}
-
 /* Header, Footer */
 header,
 footer {
     text-align: center;
+}
+
+/* Spacing */
+aside, main {
+    margin: .5rem;
 }
